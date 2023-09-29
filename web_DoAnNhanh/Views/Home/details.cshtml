@@ -23,10 +23,36 @@
         width: 50%;
         display: flex;
         flex-direction: column;
+        font-size: large;
     }
 
-    .main-body {
+    .buy {
+        background-color: white;
+        width: 220px;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 10px;
+        border-color:orangered;
+        font-size:larger
     }
+
+        .buy:hover {
+            background-color: rgba(255,87,34,.1);
+        }
+
+    .add {
+        background-color: orangered;
+        width: 220px;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 10px;
+        border-color: orangered;
+        font-size: larger
+    }
+
+        .add:hover {
+            background-color: #FF3333;
+        }
 
     .menu_shop ul li {
         color: gray;
@@ -34,33 +60,34 @@
         margin-bottom: 5px;
     }
 </style>
-<div style="width: 100%; background-color: white;">
+    <div style="width: 100%; background-color: white;">
     <div class="main_shop">
         <div class="header_shop">
-            <img class="img_shop" style="object-fit: cover; width:45%;" src="https://images.foody.vn/res/g116/1155652/prof/s640x400/foody-upload-api-foody-mobile-im-6522b18f-221112225428.jpeg" />
+            <img class="img_shop" style="object-fit: cover; width:45%;" src="https://cdn.tgdd.vn/Files/2017/03/22/963765/cach-lam-ga-ran-thom-ngon-8_760x450.jpg" />
             <div class="header_detail">
-                <p style="color: cadetblue;"> Home -> TP.HCM -> Cơm ba Nghiên</p>
-                <p style="margin-top: 20px; color: darkgray; font-size: 13px;"> Quán Ăn</p>
-                <strong style="font-size: 20px; margin-bottom: 5px;"> Cơm ba Nghiền - Nguyễn Văn trỗi</strong>
-                <p>146/3 Nguyễn Văn Trỗi, P.8, Quận Phú Nhuận, TP.HCM </p>
-                <p style="color: cornflowerblue; margin-top: 15px;"> Thêm lượt đánh giá từ Foody.</p>
+                <p style="color: cadetblue;"> Món Ăn -> Gà Rán</p>
+                <strong style="font-size: 50px; margin-bottom: 5px;"> Gà Rán </strong>
+                <p>Gà được rán lên bởi SANG </p>
+                @*<p style="color: cornflowerblue; margin-top: 15px;"> Thêm lượt đánh giá từ Foody.</p>*@
                 <p style="color: green">Mở cửa: 00:00 - 23:59 </p>
-                <p> Giá:  $ 40 - 120</p>
-                <div style="width: 100%; height: 1px; background-color: darkgray; margin-top: 30px;"> </div>
-                <div style="display: flex; ">
-                    <p style="margin-right: 50px; color: gray;"> Phí dịch vụ: <br /> 0.00% </p>
-                    <p style="color: orangered"> Dịch vụ bởi: <br /> <strong>ShopeeFood </strong> </p>
+                <p> Giá:  80.000 VNĐ</p>
+                @*<div style="width: 100%; height: 1px; background-color: darkgray; margin-top: 30px;"> </div>*@
+                <!--<div style="display: flex; ">-->
+                @*<p style="margin-right: 50px; color: gray;"> Phí dịch vụ: <br /> 0.00% </p>*@
+                @*<p style="color: orangered"> Dịch vụ bởi: <br /> <strong>ShopeeFood </strong> </p>*@
 
-                    @*var getShop = ViewBag.Shop as Shopee_Food.Models.Shop;*@
-                    @*< img class="img_shop" style="object-fit: cover; width:45%;" src="~/Images/@getShop.AnhBia" />*@
-                    @*<img class="img_shop" style="object-fit: cover; width: 45%;" src="~/Images/@getShop.AnhBia" />*@
-
-               
-
-
+                @*var getShop = ViewBag.Shop as Shopee_Food.Models.Shop;*@
+                @*< img class="img_shop" style="object-fit: cover; width:45%;" src="~/Images/@getShop.AnhBia" />*@
+                @*<img class="img_shop" style="object-fit: cover; width: 45%;" src="~/Images/@getShop.AnhBia" />*@
+                <!--</div>
+    </div>-->
+                <div>
+                    <p><button class="buy" style="color:orangered">Mua ngay</button></p>
+                </div>
+                <div>
+                    <p><button class="add" style="color:white">Thêm vào giỏ hàng</button></p>
                 </div>
             </div>
-        </div>
     </div>
 
     <div class="main_shop" style="background-color: antiquewhite;width: 100%; padding: 20px;">
