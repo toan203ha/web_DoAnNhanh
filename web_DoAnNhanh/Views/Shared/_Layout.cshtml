@@ -30,13 +30,28 @@
              align-content: center;
              align-items: center;
         }
+        .nav_header {
+            text-align: center;
+        }
+
+        .nav_list {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+        }
 
         .nav_header ul li {
-            margin-right: 15px;
             font-size: 17px;
+            margin-right: 100px;
         }
 
         .nav_header ul li:hover {
+            color: orangered;
+            cursor:pointer;
+        }
+        .icon_search:hover {
+            cursor: pointer;
             color: orangered;
         }
 
@@ -53,16 +68,22 @@
             <img src="https://shopeefood.vn/app/assets/img/shopeefoodvn.png?4aa1a38e8da801f4029b80734905f3f7" style="object-fit:cover; width: 150px" />
  
             <div class="nav_header">
-                <ul style="display: flex;margin-right: 550px;list-style:none">
-                    <li style="color: orangered;">Đồ Ăn</li>
-                    <li> Đồ uống</li>
-                    <li> Combo </li>
+                <ul style="display: flex;list-style: none; padding-top: 20px;">
+                    <li style="color: orangered;">Đồ ăn</li>
+                    <li>Đồ uống</li>
+                    <li>Combo</li>
                 </ul>
             </div>
-            <div class="">
+            <div class="icon_search">
                 <i class="fas fa-search search-icon" style="font-size: 20px; margin-right: 10px;"></i>
+<<<<<<< HEAD
                 <a href="Login/Dangnhap" class="login-button ahrf" style="padding: 8px 16px; border: 1px solid orangered; color: orangered;  border-radius: 5px; cursor: pointer; ">Đăng nhập</a>
                 <a href="Login/Dangnhap" class="login-button ahrf" style="padding: 8px 16px; border: 1px solid orangered; color: orangered;  border-radius: 5px; cursor: pointer; ">Đăng Kí</a>
+=======
+                </div>
+            <div class="btn_login">
+                <a href="~/Users_new/LoginCus" class="login-button" style="padding: 8px 16px; border: 1px solid orangered; color: orangered;  border-radius: 5px; cursor: pointer; text-decoration:none;">Đăng nhập</a>
+>>>>>>> e4f008192dd702e6b22b220404ffe27a84c33ff3
             </div>
         </div>
     </div>
