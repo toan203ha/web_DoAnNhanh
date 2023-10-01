@@ -193,14 +193,11 @@
     <Content Include="Views\Login\Dangnhap.cshtml" />
     <Content Include="Views\User\Info.cshtml" />
     <Content Include="Views\User\ViewKhuyenmai.cshtml" />
-<<<<<<< HEAD
     <Content Include="Views\Food\ViewFood.cshtml" />
     <Content Include="Views\Drinks\ViewDrinks.cshtml" />
     <Content Include="Views\Combo\ViewCombo.cshtml" />
-=======
     <Content Include="Views\Default\Index.cshtml" />
     <Content Include="Views\Default\Index_.cshtml" />
->>>>>>> a44e2c61ebe7fe4aeb93255bf34446fe5cbaab39
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Admin\View\" />
