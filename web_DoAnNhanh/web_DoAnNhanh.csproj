@@ -117,6 +117,9 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\Product\ComboController.cs" />
+    <Compile Include="Controllers\Product\DrinksController.cs" />
+    <Compile Include="Controllers\Product\FoodController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\UserController.cs" />
@@ -182,12 +185,13 @@
     <Content Include="Views\Home\CartNoProduct.cshtml" />
     <Content Include="Views\Home\CartProduct.cshtml" />
     <Content Include="Views\Shared\_Layout_cart.cshtml" />
-    <Content Include="Views\Home\ViewSanPham.cshtml" />
-    <Content Include="Views\Shared\_ViewProduct.cshtml" />
     <Content Include="Views\Shared\_login.cshtml" />
     <Content Include="Views\Login\Dangnhap.cshtml" />
     <Content Include="Views\User\Info.cshtml" />
     <Content Include="Views\User\ViewKhuyenmai.cshtml" />
+    <Content Include="Views\Food\ViewFood.cshtml" />
+    <Content Include="Views\Drinks\ViewDrinks.cshtml" />
+    <Content Include="Views\Combo\ViewCombo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
