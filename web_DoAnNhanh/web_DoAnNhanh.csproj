@@ -183,7 +183,6 @@
     <Content Include="Views\Shared\_Layout_cart.cshtml" />
     <Content Include="Views\Home\ViewSanPham.cshtml" />
     <Content Include="Views\Shared\_ViewProduct.cshtml" />
-    <Content Include="Views\Test.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
