@@ -114,16 +114,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\Controllers\DefaultController.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\Product\ComboController.cs" />
+    <Compile Include="Controllers\Product\DrinksController.cs" />
+    <Compile Include="Controllers\Product\FoodController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Admin\admin.css" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -140,15 +147,18 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\login\Style.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Scripts\ADMIN.js" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Admin\Layout\_LayoutPage1.cshtml" />
     <None Include="Scripts\jquery-3.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.1.js" />
     <Content Include="Scripts\jquery-3.7.1.min.js" />
@@ -159,6 +169,7 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\login.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -178,10 +189,18 @@
     <Content Include="Views\Home\CartNoProduct.cshtml" />
     <Content Include="Views\Home\CartProduct.cshtml" />
     <Content Include="Views\Shared\_Layout_cart.cshtml" />
-    <Content Include="Views\Home\ViewSanPham.cshtml" />
-    <Content Include="Views\Shared\_ViewProduct.cshtml" />
+    <Content Include="Views\Shared\_login.cshtml" />
+    <Content Include="Views\Login\Dangnhap.cshtml" />
+    <Content Include="Views\User\Info.cshtml" />
+    <Content Include="Views\User\ViewKhuyenmai.cshtml" />
+    <Content Include="Views\Food\ViewFood.cshtml" />
+    <Content Include="Views\Drinks\ViewDrinks.cshtml" />
+    <Content Include="Views\Combo\ViewCombo.cshtml" />
+    <Content Include="Views\Default\Index.cshtml" />
+    <Content Include="Views\Default\Index_.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Admin\View\" />
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
     <Folder Include="Views\Food\" />

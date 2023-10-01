@@ -1,22 +1,29 @@
 ﻿
 @{
-    ViewBag.Title = "ViewSanPham";
-    Layout = "~/Views/Shared/_ViewProduct.cshtml";
+    ViewBag.Title = "ViewFood";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <style>
     .card {
+<<<<<<< HEAD:web_DoAnNhanh/Views/Home/ViewSanPham.cshtml
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         max-width: 250px;
         margin: auto;
+=======
+        max-width: 250px;
+        background-color: #F8F8FF;
+>>>>>>> 055564af45f0c59167231acefde43cc064d375e0:web_DoAnNhanh/Views/Food/ViewFood.cshtml
         text-align: center;
         font-family: arial;
         padding: 30px;
+        margin: 0 20px 20px 0;
+        border-radius: 10px;
     }
-    .card:hover{
-        cursor: pointer;
-        border: 0.1rem inset #fc5e31;
-        
-    }
+
+        .card:hover {
+            cursor: pointer;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
 
     .price {
         color: grey;
@@ -28,21 +35,22 @@
         outline: 0;
         padding: 12px;
         color: white;
-        background-color:orangered;
+        background-color: orangered;
         text-align: center;
         cursor: pointer;
         width: 100%;
         font-size: 18px;
         border-radius: 10px;
     }
+
     .row {
         display: flex;
-        margin: 50px;
+        justify-content: center;
         flex-wrap: wrap;
     }
 
     .card button:hover {
-        opacity: 0.7;
+        /*opacity: 0.7;*/
     }
 </style>    
 <body>
